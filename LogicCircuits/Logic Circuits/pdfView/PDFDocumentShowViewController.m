@@ -889,6 +889,7 @@
 {
     long pageWidth = 0;
     long pageHeight = 0;
+    
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     if (UIInterfaceOrientationIsPortrait(orientation) == YES)
 	{
