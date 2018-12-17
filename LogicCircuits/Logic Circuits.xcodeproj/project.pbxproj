@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1652140021C7FA8500E56B63 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165213FF21C7FA8400E56B63 /* AssetsLibrary.framework */; };
+		1652140221C7FE4700E56B63 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1652140121C7FE4600E56B63 /* Photos.framework */; };
 		90173C951BC2A03E001A9F4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90173C941BC2A03E001A9F4F /* Images.xcassets */; };
 		90B9238E164FCBC10072C6A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B9238D164FCBC10072C6A9 /* UIKit.framework */; };
 		90B92390164FCBC10072C6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B9238F164FCBC10072C6A9 /* Foundation.framework */; };
@@ -361,6 +363,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		165213FF21C7FA8400E56B63 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1652140121C7FE4600E56B63 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		90173C941BC2A03E001A9F4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90B92389164FCBC10072C6A9 /* Logic Circuits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logic Circuits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B9238D164FCBC10072C6A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -740,6 +744,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1652140221C7FE4700E56B63 /* Photos.framework in Frameworks */,
+				1652140021C7FA8500E56B63 /* AssetsLibrary.framework in Frameworks */,
 				90B92683164FD6CC0072C6A9 /* QuartzCore.framework in Frameworks */,
 				90B92682164FD6BE0072C6A9 /* MessageUI.framework in Frameworks */,
 				90B92681164FD6A90072C6A9 /* MobileCoreServices.framework in Frameworks */,
@@ -774,6 +780,8 @@
 		90B9238C164FCBC10072C6A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1652140121C7FE4600E56B63 /* Photos.framework */,
+				165213FF21C7FA8400E56B63 /* AssetsLibrary.framework */,
 				90B9267F164FD60D0072C6A9 /* MobileCoreServices.framework */,
 				90B9267D164FD5FD0072C6A9 /* QuartzCore.framework */,
 				90B9267B164FD5B20072C6A9 /* MessageUI.framework */,

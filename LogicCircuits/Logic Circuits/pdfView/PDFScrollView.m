@@ -205,7 +205,7 @@
 
 // A UIScrollView delegate callback, called when the user stops zooming.  When the user stops zooming
 // we create a new TiledPDFView based on the new zoom level and draw it on top of the old TiledPDFView.
-- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(double)scale
 {
 //    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
 //	// set the new scale factor for the TiledPDFView

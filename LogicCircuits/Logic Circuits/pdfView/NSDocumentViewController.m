@@ -1,5 +1,7 @@
    
 #import "NSDocumentViewController.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <Photos/Photos.h>
 
 
 @implementation NSDocumentViewController
@@ -152,17 +154,17 @@
 	[self.view addSubview:labelPageNum_];
     
     // 8. init page slider bar.
-    CGRect sliderRect = CGRectMake(10, bgRect.size.height - toolbarHeight - 25, 
+    CGRect sliderRect = CGRectMake(10, bgRect.size.height - toolbarHeight - 25,
                                    bgRect.size.width - 20, 20);
-	labelSlider_ = [[UISlider alloc]initWithFrame:sliderRect];
-	labelSlider_.minimumValue = 0;
-	labelSlider_.maximumValue = [manager_ getDocumentPageCount] - 1;
-	labelSlider_.continuous = YES;
-	[labelSlider_ addTarget:self
-                     action:@selector(actionOnSliderValueChanging) 
+    labelSlider_ = [[UISlider alloc]initWithFrame:sliderRect];
+    labelSlider_.minimumValue = 0;
+    labelSlider_.maximumValue = [manager_ getDocumentPageCount] - 1;
+    labelSlider_.continuous = YES;
+    [labelSlider_ addTarget:self
+                     action:@selector(actionOnSliderValueChanging)
            forControlEvents:UIControlEventValueChanged];
     [labelSlider_ addTarget:self
-                     action:@selector(actionOnSliderValueChanged) 
+                     action:@selector(actionOnSliderValueChanged)
            forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:labelSlider_];
     
@@ -390,8 +392,8 @@
         // We need a completion handler block for printing.
         UIPrintInteractionCompletionHandler completionHandler = ^(UIPrintInteractionController *printController, BOOL completed, NSError *error) {
             if(completed && error)
-                NSLog(@"FAILED! due to error in domain %@ with error code %u", 
-                      error.domain, error.code);
+                NSLog(@"FAILED! due to error in domain %@ with error code %ld",
+                      error.domain, (long)error.code);
 //            if (completed == NO) {
 //                [self.navigationController popViewControllerAnimated:NO];
 //            }
@@ -456,13 +458,53 @@
 //    [alert show];
 //    [alert release];
     
-    PDFScrollView* pageView_ = [self getPageViewWithPageIndex:pageIndex];
-    UIGraphicsBeginImageContextWithOptions(pageView_.pdfView.bounds.size, YES, 1.0);
-     
-    [pageView_.pdfView.layer renderInContext:UIGraphicsGetCurrentContext()];
-    UIImage *uiImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    UIImageWriteToSavedPhotosAlbum(uiImage, nil, nil, nil); 
+
+    [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+
+        if (status == PHAuthorizationStatusNotDetermined || status == PHAuthorizationStatusAuthorized) {
+            
+            PDFScrollView* pageView_ = [self getPageViewWithPageIndex:pageIndex];
+//            UIGraphicsBeginImageContextWithOptions(pageView_.pdfView.bounds.size, YES, 1.0);
+                UIGraphicsBeginImageContextWithOptions(pageView_.pdfView.bounds.size, YES, 0);
+            [pageView_.pdfView.layer renderInContext:UIGraphicsGetCurrentContext()];
+            UIImage *uiImage = UIGraphicsGetImageFromCurrentImageContext();
+            UIGraphicsEndImageContext();
+            UIImageWriteToSavedPhotosAlbum(uiImage, nil, nil, nil);
+
+        }else{
+            
+                //未授权可以提示用不进入设置里面打开权限
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Logic Circuits" message:@"Screenshots need to save photo permissions" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+            [alert show];
+
+        }
+        
+    }];
+    //
+//
+//        //https://www.jianshu.com/p/36d0e5a580c7
+
+    
+
+    // 判断是否有写照片权限:https://www.jianshu.com/p/701e0f5ba221
+    
+//    ALAuthorizationStatus author = [ALAssetsLibrary authorizationStatus];
+//    if (author == ALAuthorizationStatusRestricted || author ==ALAuthorizationStatusDenied){
+//
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Logic Circuits" message:@"Screenshots need to save photo permissions" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+//        [alert show];
+//
+//    }else{
+//        PDFScrollView* pageView_ = [self getPageViewWithPageIndex:pageIndex];
+//        UIGraphicsBeginImageContextWithOptions(pageView_.pdfView.bounds.size, YES, 1.0);
+//
+//        [pageView_.pdfView.layer renderInContext:UIGraphicsGetCurrentContext()];
+//        UIImage *uiImage = UIGraphicsGetImageFromCurrentImageContext();
+//        UIGraphicsEndImageContext();
+////        UIImageWriteToSavedPhotosAlbum(uiImage, nil, nil, nil);
+//        UIImageWriteToSavedPhotosAlbum(uiImage, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
+//    }
+//
 }
 
 - (void) actionSendMail
@@ -487,12 +529,20 @@
             [picker addAttachmentData:attachmentData 
                              mimeType:mimeType 
                              fileName:sendfileName];
-            [self presentModalViewController:picker animated:YES];
+            [self presentViewController:picker animated:YES completion:nil];
+//            [self presentModalViewController:picker animated:YES];
         }
         
        // [mailFilePath release];
        // [mailFileName release];
        // [picker release];
+    }else{
+        UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Error"
+            message:@"can not send mail with this device"
+            delegate:nil
+            cancelButtonTitle:@"Ok"
+            otherButtonTitles:nil, nil];
+        [alert show];
     }
 
 }
@@ -504,8 +554,11 @@
 						error:(NSError *)error
 
 {
-	[self becomeFirstResponder];
-	[self dismissModalViewControllerAnimated:YES];
+    [self becomeFirstResponder];
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    
+//    [self dismissModalViewControllerAnimated:YES];
 }
 
 - (void) actionOnSliderValueChanging
@@ -566,6 +619,7 @@
     int pageNum = pageIndex + 1;
     int pageCount = [manager_ getDocumentPageCount];
     labelPageNum_.text = [NSString stringWithFormat:@"%d/%d", pageNum, pageCount];
+    [labelSlider_ setValue:pageNum-1];
 }
 
 
