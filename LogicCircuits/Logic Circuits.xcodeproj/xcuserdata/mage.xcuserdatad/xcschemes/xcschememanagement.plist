@@ -6,8 +6,23 @@
 	<dict>
 		<key>Logic Circuits.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>90B92388164FCBC10072C6A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90B923BD164FCBC10072C6A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

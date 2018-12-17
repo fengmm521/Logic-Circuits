@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		90173C951BC2A03E001A9F4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90173C941BC2A03E001A9F4F /* Images.xcassets */; };
-		90173C961BC2A03E001A9F4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90173C941BC2A03E001A9F4F /* Images.xcassets */; };
 		90B9238E164FCBC10072C6A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B9238D164FCBC10072C6A9 /* UIKit.framework */; };
 		90B92390164FCBC10072C6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B9238F164FCBC10072C6A9 /* Foundation.framework */; };
 		90B92392164FCBC10072C6A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B92391164FCBC10072C6A9 /* CoreGraphics.framework */; };
@@ -25,11 +24,6 @@
 		90B923B2164FCBC10072C6A9 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B923B0164FCBC10072C6A9 /* FirstViewController_iPad.xib */; };
 		90B923B5164FCBC10072C6A9 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B923B3164FCBC10072C6A9 /* SecondViewController_iPhone.xib */; };
 		90B923B8164FCBC10072C6A9 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B923B6164FCBC10072C6A9 /* SecondViewController_iPad.xib */; };
-		90B923C0164FCBC10072C6A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B923BF164FCBC10072C6A9 /* SenTestingKit.framework */; };
-		90B923C1164FCBC10072C6A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B9238D164FCBC10072C6A9 /* UIKit.framework */; };
-		90B923C2164FCBC10072C6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B9238F164FCBC10072C6A9 /* Foundation.framework */; };
-		90B923CA164FCBC10072C6A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90B923C8164FCBC10072C6A9 /* InfoPlist.strings */; };
-		90B923CD164FCBC10072C6A9 /* Logic_CircuitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B923CC164FCBC10072C6A9 /* Logic_CircuitsTests.m */; };
 		90B923D9164FCCB20072C6A9 /* TridTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B923D7164FCCB20072C6A9 /* TridTableViewController.m */; };
 		90B923DA164FCCB20072C6A9 /* TridTableViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B923D8164FCCB20072C6A9 /* TridTableViewController_iPhone.xib */; };
 		90B923DC164FCD030072C6A9 /* TridTableViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B923DB164FCD030072C6A9 /* TridTableViewController_iPad.xib */; };
@@ -366,16 +360,6 @@
 		90BFB14A1650AF1300A4AB62 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 90BFB1491650AF1300A4AB62 /* iTunesArtwork */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		90B923C3164FCBC10072C6A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90B92380164FCBC10072C6A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90B92388164FCBC10072C6A9;
-			remoteInfo = "Logic Circuits";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		90173C941BC2A03E001A9F4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		90B92389164FCBC10072C6A9 /* Logic Circuits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logic Circuits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,7 +384,6 @@
 		90B923B1164FCBC10072C6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
 		90B923B4164FCBC10072C6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		90B923B7164FCBC10072C6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
-		90B923BE164FCBC10072C6A9 /* Logic CircuitsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Logic CircuitsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B923BF164FCBC10072C6A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		90B923C7164FCBC10072C6A9 /* Logic CircuitsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Logic CircuitsTests-Info.plist"; sourceTree = "<group>"; };
 		90B923C9164FCBC10072C6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -766,16 +749,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B923BA164FCBC10072C6A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90B923C0164FCBC10072C6A9 /* SenTestingKit.framework in Frameworks */,
-				90B923C1164FCBC10072C6A9 /* UIKit.framework in Frameworks */,
-				90B923C2164FCBC10072C6A9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -794,7 +767,6 @@
 			isa = PBXGroup;
 			children = (
 				90B92389164FCBC10072C6A9 /* Logic Circuits.app */,
-				90B923BE164FCBC10072C6A9 /* Logic CircuitsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1323,25 +1295,6 @@
 			productReference = 90B92389164FCBC10072C6A9 /* Logic Circuits.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90B923BD164FCBC10072C6A9 /* Logic CircuitsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90B923D3164FCBC20072C6A9 /* Build configuration list for PBXNativeTarget "Logic CircuitsTests" */;
-			buildPhases = (
-				90B923B9164FCBC10072C6A9 /* Sources */,
-				90B923BA164FCBC10072C6A9 /* Frameworks */,
-				90B923BB164FCBC10072C6A9 /* Resources */,
-				90B923BC164FCBC10072C6A9 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90B923C4164FCBC10072C6A9 /* PBXTargetDependency */,
-			);
-			name = "Logic CircuitsTests";
-			productName = "Logic CircuitsTests";
-			productReference = 90B923BE164FCBC10072C6A9 /* Logic CircuitsTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1370,7 +1323,6 @@
 			projectRoot = "";
 			targets = (
 				90B92388164FCBC10072C6A9 /* Logic Circuits */,
-				90B923BD164FCBC10072C6A9 /* Logic CircuitsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1714,32 +1666,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B923BB164FCBC10072C6A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90B923CA164FCBC10072C6A9 /* InfoPlist.strings in Resources */,
-				90173C961BC2A03E001A9F4F /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		90B923BC164FCBC10072C6A9 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90B92385164FCBC10072C6A9 /* Sources */ = {
@@ -1763,23 +1690,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B923B9164FCBC10072C6A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90B923CD164FCBC10072C6A9 /* Logic_CircuitsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		90B923C4164FCBC10072C6A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90B92388164FCBC10072C6A9 /* Logic Circuits */;
-			targetProxy = 90B923C3164FCBC10072C6A9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		90B92396164FCBC10072C6A9 /* InfoPlist.strings */ = {
@@ -1956,42 +1867,6 @@
 			};
 			name = Release;
 		};
-		90B923D4164FCBC20072C6A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Logic Circuits.app/Logic Circuits";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Logic Circuits/Logic Circuits-Prefix.pch";
-				INFOPLIST_FILE = "Logic CircuitsTests/Logic CircuitsTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fengmm521.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		90B923D5164FCBC20072C6A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Logic Circuits.app/Logic Circuits";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Logic Circuits/Logic Circuits-Prefix.pch";
-				INFOPLIST_FILE = "Logic CircuitsTests/Logic CircuitsTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fengmm521.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2009,15 +1884,6 @@
 			buildConfigurations = (
 				90B923D1164FCBC10072C6A9 /* Debug */,
 				90B923D2164FCBC10072C6A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90B923D3164FCBC20072C6A9 /* Build configuration list for PBXNativeTarget "Logic CircuitsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90B923D4164FCBC20072C6A9 /* Debug */,
-				90B923D5164FCBC20072C6A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
