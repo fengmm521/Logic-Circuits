@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<array>
+		<string>74ls00</string>
+		<string>74ls01</string>
+		<string>74ls02</string>
+		<string>74ls03</string>
+		<string>74ls04</string>
+		<string>74ls05</string>
+		<string>74ls08</string>
+		<string>74ls09</string>
+		<string>74ls10</string>
+		<string>74ls11</string>
+		<string>74ls12</string>
+		<string>74ls13</string>
+		<string>74ls14</string>
+		<string>74ls15</string>
+		<string>74ls16</string>
+		<string>74ls20</string>
+		<string>74ls21</string>
+		<string>74ls22</string>
+		<string>74ls26</string>
+		<string>74ls27</string>
+		<string>74ls28</string>
+		<string>74ls30</string>
+		<string>74ls32</string>
+		<string>74ls33</string>
+		<string>74ls37</string>
+		<string>74ls38</string>
+		<string>74ls39</string>
+		<string>74ls40</string>
+		<string>74ls50</string>
+		<string>74ls51</string>
+		<string>74ls53</string>
+		<string>74ls54</string>
+		<string>74ls86</string>
+		<string>74ls132</string>
+		<string>74ls133</string>
+		<string>74ls136</string>
+		<string>74ls181</string>
+		<string>74ls260</string>
+		<string>74ls266</string>
+		<string>74ls460</string>
+	</array>
+</plist>

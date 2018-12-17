@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>4502</key>
+	<string>CMOS strobed hex inverter/buffer</string>
+	<key>4503</key>
+	<string>CMOS hex buffer with 3-state outputs</string>
+	<key>4504</key>
+	<string>CMOS hex voltage level shifter for TTL-to-CMOS or CMOS-to-CMOS operation</string>
+	<key>4508</key>
+	<string>CMOS dual 4-bit latch with 3-state outputs</string>
+	<key>4510_4516</key>
+	<string>presettable up/down counters(4510:BCD,4516:binary)</string>
+	<key>4511</key>
+	<string>BCD-to-7-segment latch decoder drivers</string>
+	<key>4512</key>
+	<string>8-channel data selector with 3-state outputs</string>
+	<key>4513</key>
+	<string>BCD-to-7-segment latch/decoder/driver</string>
+	<key>4514_4515</key>
+	<string>4-bit latch/4-to-16 line decoder</string>
+	<key>4517</key>
+	<string>dual 64-stage static shift regiter with 3-state outputs</string>
+	<key>4518_4520</key>
+	<string>dual up counters(4518:BCD,4520:binary)</string>
+	<key>4519</key>
+	<string>4-bit AND/OR selector or quad 2-channel data selector or quad exclusive &quot;NOR&quot; gate</string>
+	<key>4521</key>
+	<string>24-stage frequency divider</string>
+	<key>4522</key>
+	<string>programmable BCD divide-by-&quot;N&quot; counter</string>
+	<key>4527</key>
+	<string>BCD rate multiplier</string>
+	<key>4528</key>
+	<string>dual monostable multivibrator</string>
+	<key>4529</key>
+	<string>4-channel analog data selector with 3-state outputs</string>
+	<key>4530</key>
+	<string>dual 5-input majority logic gate(multifaunctional IC)</string>
+	<key>4531</key>
+	<string>12-bit parity tree</string>
+	<key>4532</key>
+	<string>8-bit priority encoder</string>
+	<key>4534</key>
+	<string>5 cascaded BCD counters with 3-state outputs</string>
+	<key>4536</key>
+	<string>programmable timer</string>
+	<key>4538</key>
+	<string>dual precision monostable</string>
+	<key>4539</key>
+	<string>dual 4-channel data selector/multiplexer</string>
+	<key>4541</key>
+	<string>programmable timer</string>
+	<key>4543</key>
+	<string>BCD-to-7 segment latch/decoder/driver for liquid crystals</string>
+	<key>4549_4559</key>
+	<string>successive approximation registers</string>
+	<key>4551</key>
+	<string>quad 2-channel analog multiplexer/demultiplexer</string>
+	<key>4553</key>
+	<string>3-digit BCD counter</string>
+	<key>4555_4556</key>
+	<string>dual binary to 1 of 4 decoder/demultiplexers</string>
+	<key>4557</key>
+	<string>1-to-64 bit variable length shift register</string>
+	<key>4558</key>
+	<string>BCD-to-7-segment decoder</string>
+	<key>4562</key>
+	<string>128-bit static shift register</string>
+	<key>4566</key>
+	<string>industrial time base generator</string>
+	<key>4569</key>
+	<string>programmable divide-by-N dual 4-bit binary/BCD down counter</string>
+	<key>4572</key>
+	<string>hex logic gate</string>
+	<key>4580</key>
+	<string>4X4 multiport register with 3-state outputs</string>
+	<key>4584</key>
+	<string>hex schmitt trigger</string>
+	<key>4585</key>
+	<string>4-bit magnitude comparator</string>
+	<key>74121</key>
+	<string>monostable multivibrators with schmitt-trigger inputs</string>
+	<key>74180</key>
+	<string>9-bit odd/even parity generators/checkers</string>
+	<key>74184_185</key>
+	<string>binary-to-BCD converters</string>
+	<key>7497</key>
+	<string>synchronous 6-bit binary rate multipliers</string>
+	<key>74ls00</key>
+	<string>quad 2-input positive-nand gates</string>
+	<key>74ls01</key>
+	<string>quad 2-input positive-nand gates(with open-collector outputs)</string>
+	<key>74ls02</key>
+	<string>quad 2-input positive-nor gates</string>
+	<key>74ls03</key>
+	<string>quad 2-input positive-nand gates(with oper-collector outputs)</string>
+	<key>74ls04</key>
+	<string>hex inverting gates</string>
+	<key>74ls05</key>
+	<string>hex inverting with open-collector outputs</string>
+	<key>74ls06</key>
+	<string>hex inverter buffer/drivers with open-collector high-voltage outputs(30V)</string>
+	<key>74ls07</key>
+	<string>hex buffers/drivers with open-collector high-voltage outputs(30V)</string>
+	<key>74ls08</key>
+	<string>quad 2-input positive-and gates</string>
+	<key>74ls09</key>
+	<string>quad 2-input positive-and gates with open-collector outputs</string>
+	<key>74ls10</key>
+	<string>triple 3-input positive-and gates</string>
+	<key>74ls107</key>
+	<string>dual j-k flip-flops with clear</string>
+	<key>74ls109</key>
+	<string>dual j-k positive-edge-triggered flip-flops with preset and clear</string>
+	<key>74ls11</key>
+	<string>triple 3-input positive-and gates</string>
+	<key>74ls112</key>
+	<string>dual j-k negative-edge-triggered flip-flops with preset and clear</string>
+	<key>74ls12</key>
+	<string>triple 3-input positive-nand gates with open-collector outputs</string>
+	<key>74ls122</key>
+	<string>retriggerable monostable multivibrators</string>
+	<key>74ls123</key>
+	<string>dual retriggerable monostable multivibrators</string>
+	<key>74ls125</key>
+	<string>low voltage open quad 3-state buffer</string>
+	<key>74ls126</key>
+	<string>hight voltage open quad 3-state buffer</string>
+	<key>74ls13</key>
+	<string>dual 4-input positive-nand schmitt-triggers</string>
+	<key>74ls132</key>
+	<string>quad 2-input positive-nand schmitt-triggers</string>
+	<key>74ls133</key>
+	<string>13-input nand gate</string>
+	<key>74ls136</key>
+	<string>quad 2-input exdusive-or gates with open-collector outputs</string>
+	<key>74ls138</key>
+	<string>3-line to 8-line decoders/demultiplexers</string>
+	<key>74ls139</key>
+	<string>dual 2-line to 4-line decoders/demultiplexers</string>
+	<key>74ls14</key>
+	<string>schmitt triggers dual gate/hex inverter</string>
+	<key>74ls145</key>
+	<string>BCD-to-Decinal decoders/drivers</string>
+	<key>74ls15</key>
+	<string>triple 3-input positive-and gates with open-collector outputs</string>
+	<key>74ls150</key>
+	<string>16-bit data selectors/multiplexers</string>
+	<key>74ls151</key>
+	<string>8-bit data selectors/multiplexers</string>
+	<key>74ls153</key>
+	<string>dual 4-line to 1-line data selectors/multiplexers</string>
+	<key>74ls154</key>
+	<string>4-line to 16-line decoders/demultiplexers</string>
+	<key>74ls155</key>
+	<string>dual 1-of-4 decoder/demultiplexer</string>
+	<key>74ls156</key>
+	<string>dual 2-line to 4-line decoders/demultiplexers</string>
+	<key>74ls157</key>
+	<string>quad 2-line to 1-line data selectors/multiplexers</string>
+	<key>74ls158</key>
+	<string>quad 2-line to 1-line data selectors/multiplexers inverting outpur</string>
+	<key>74ls16</key>
+	<string>hex inverters buffer/drivers with open-collector outputs(15V)</string>
+	<key>74ls160</key>
+	<string>asynchronous reset decade counters with direct clear</string>
+	<key>74ls161</key>
+	<string>asynchronous reset counters with direct clear</string>
+	<key>74ls162</key>
+	<string>synchronous reset decade counters with direct clear</string>
+	<key>74ls163</key>
+	<string>synchronous reset counters with direct clear</string>
+	<key>74ls164</key>
+	<string>serial-in parallel-out shift register</string>
+	<key>74ls165</key>
+	<string>8-bit parallel-to-serial shift registor</string>
+	<key>74ls166</key>
+	<string>8-bit shift registers</string>
+	<key>74ls169</key>
+	<string>synchronous 4-bit up/down binary counters</string>
+	<key>74ls17</key>
+	<string>hex buffers/drivers with open-collector outputs(15V)</string>
+	<key>74ls170</key>
+	<string>4X4 register file open-collector outputs</string>
+	<key>74ls173</key>
+	<string>4-bit D-type registers with 3-state outputs</string>
+	<key>74ls174</key>
+	<string>hex D flip-flop</string>
+	<key>74ls175</key>
+	<string>quad D flip-flop</string>
+	<key>74ls181</key>
+	<string>4-bit arithmetic logic unit</string>
+	<key>74ls190</key>
+	<string>synchronous up/down BCD counters with down/up mode control</string>
+	<key>74ls191</key>
+	<string>synchronous up/down 4-bit binary counters with down/up mode control</string>
+	<key>74ls192_193</key>
+	<string>synchronous 4-bit up/down counters</string>
+	<key>74ls194</key>
+	<string>4-bit bidirectional universal shift registers</string>
+	<key>74ls195</key>
+	<string>universal 4-bit shift register</string>
+	<key>74ls196_197</key>
+	<string>presettable decade or binary counters/latches</string>
+	<key>74ls20</key>
+	<string>dual 4-input positive-nand gates</string>
+	<key>74ls21</key>
+	<string>dual 4-input positive-and gates</string>
+	<key>74ls22</key>
+	<string>dual 4-input positive-nand gates with open-collector outputs</string>
+	<key>74ls221</key>
+	<string>dual monostable multivibrators with schmitt-trigger inputs</string>
+	<key>74ls240</key>
+	<string>octal buffer driver with 3-state outputs(inverting output)</string>
+	<key>74ls241</key>
+	<string>dual 4 line driver with 3-state outputs</string>
+	<key>74ls242_243</key>
+	<string>quad bus transmitters/receiver</string>
+	<key>74ls244</key>
+	<string>octal line driver with 3-state outputs</string>
+	<key>74ls245</key>
+	<string>octal bus transmitters/receivers</string>
+	<key>74ls247</key>
+	<string>BCD-to-seven-segment decoders/drivers(open-collector and active-low outputs)</string>
+	<key>74ls248</key>
+	<string>BCD-to-seven-segment decoders/drivers(active-hight outputs)</string>
+	<key>74ls249</key>
+	<string>BCD-to-seven-segment decoders/drivers(open-collector and active-hight outputs)</string>
+	<key>74ls251</key>
+	<string>8-input multiplexer with 3-state outputs</string>
+	<key>74ls253</key>
+	<string>dual 4-input multiplexer with 3-state outputs</string>
+	<key>74ls256</key>
+	<string>dual 4-bit addressable latch</string>
+	<key>74ls257</key>
+	<string>quad 2-line to 1-line data selectors/multiplexers</string>
+	<key>74ls258</key>
+	<string>quad 2-line to 1-line data selectors/multiplexers</string>
+	<key>74ls259</key>
+	<string>8-bit addressable latch</string>
+	<key>74ls26</key>
+	<string>quad 2-input nand buffer with open-collector outputs</string>
+	<key>74ls260</key>
+	<string>dual 5-input nor gates</string>
+	<key>74ls266</key>
+	<string>quad 2-input exclusive-nor gates with open-collector outputs</string>
+	<key>74ls27</key>
+	<string>triple 3-input positive-nor gates</string>
+	<key>74ls273</key>
+	<string>octal D-type flip-flop with clear</string>
+	<key>74ls279</key>
+	<string>quad S-R latches</string>
+	<key>74ls28</key>
+	<string>quad 2-input positive-nor buffers</string>
+	<key>74ls283</key>
+	<string>4-bit binary adders with fast carry</string>
+	<key>74ls290</key>
+	<string>4-bit decade counter</string>
+	<key>74ls293</key>
+	<string>4-bitbinary counter</string>
+	<key>74ls295</key>
+	<string>4-bit right-shift left-shift registers with 3-state outputs</string>
+	<key>74ls298</key>
+	<string>quad 2-input multiplexer with storage</string>
+	<key>74ls299</key>
+	<string>8-bit shift/storage register with 3-state outputs</string>
+	<key>74ls30</key>
+	<string>8-input nand gate</string>
+	<key>74ls32</key>
+	<string>quad 2-input positive-or gates</string>
+	<key>74ls322</key>
+	<string>8-bit shift registers with sign extend</string>
+	<key>74ls323</key>
+	<string>8-bit shift/storage register with 3-state outputs</string>
+	<key>74ls33</key>
+	<string>quad 2-input nor buffer with open-collector outputs</string>
+	<key>74ls347</key>
+	<string>BCD to 7-segment decoder/driver</string>
+	<key>74ls352</key>
+	<string>dual 4-input multiplexer</string>
+	<key>74ls353</key>
+	<string>dual 4-input multiplexer with 3-state outputs</string>
+	<key>74ls37</key>
+	<string>quad 2-input nand buffer</string>
+	<key>74ls373_374</key>
+	<string>octal Dtype transparent latches</string>
+	<key>74ls375</key>
+	<string>4-bit bistable latches</string>
+	<key>74ls377</key>
+	<string>octal D flip-flop with enable</string>
+	<key>74ls378_379</key>
+	<string>hex(378)/quad(379)D-type flip-flops with enable</string>
+	<key>74ls38</key>
+	<string>quad 2-input nand buffer with open-colloctor outputs</string>
+	<key>74ls39</key>
+	<string>quad 2-input nand buffer with open-colloctor outputs</string>
+	<key>74ls390_393</key>
+	<string>dual decade(390)/binary(393) counter</string>
+	<key>74ls396</key>
+	<string>octal storage registers</string>
+	<key>74ls398_399</key>
+	<string>quad 2-port register(399 only Q output)</string>
+	<key>74ls40</key>
+	<string>dual 4-input nand buffer</string>
+	<key>74ls42</key>
+	<string>BCD-to-decimal decoder</string>
+	<key>74ls43</key>
+	<string>excess-3-to-decimal decoder</string>
+	<key>74ls44</key>
+	<string>excess-3-to-decimal decoder</string>
+	<key>74ls440_442_444</key>
+	<string>quad tridirectional bus transceivers</string>
+	<key>74ls446_449</key>
+	<string>quad bus transceivers with individual direction controls</string>
+	<key>74ls447</key>
+	<string>BCD-to-seven-decoders/drivers with open-collector outputs</string>
+	<key>74ls45</key>
+	<string>BCD-to-decimal decoders/drivers</string>
+	<key>74ls450</key>
+	<string>16:1 multiplexer</string>
+	<key>74ls451</key>
+	<string>8:1 multiplexer</string>
+	<key>74ls46</key>
+	<string>BCD-to-seven-segment decoders/drivers with open-collector outputs</string>
+	<key>74ls460</key>
+	<string>10-bit comparator</string>
+	<key>74ls461</key>
+	<string>8-bit counter</string>
+	<key>74ls465_468</key>
+	<string>octal(465)/quad(468)  buffers with 3-state outputs(468 invertint output)</string>
+	<key>74ls466_467</key>
+	<string>octal(466)/quad(467) buffers with 3-state outputs(466 invertint output)</string>
+	<key>74ls469</key>
+	<string>8-bit up/down counter</string>
+	<key>74ls47</key>
+	<string>BCD-to-seven-segment decoders/drivers with open-collector outputs</string>
+	<key>74ls471</key>
+	<string>(256X8)2048-bit TTL PROM</string>
+	<key>74ls48</key>
+	<string>BCD-to-seven-segment decoders/drivers</string>
+	<key>74ls49</key>
+	<string>BCD-to-seven-segment decoders/drivers</string>
+	<key>74ls490</key>
+	<string>dual 4-bit decade counter</string>
+	<key>74ls491</key>
+	<string>10-bit counter</string>
+	<key>74ls50</key>
+	<string>dual 2-wide 2-input and-or-invert gates(one gate expandable)</string>
+	<key>74ls502</key>
+	<string>8-bit successive approximation register</string>
+	<key>74ls503</key>
+	<string>8-bit successive approximation register(with expansion control)</string>
+	<key>74ls51</key>
+	<string>and-or-invert gates</string>
+	<key>74ls53</key>
+	<string>expandable 4-wide and-or-invert gates</string>
+	<key>74ls533</key>
+	<string>octal transparent latch with 3-state outputs</string>
+	<key>74ls534</key>
+	<string>8-bit registers with 3-state outputs</string>
+	<key>74ls54</key>
+	<string>4-wide and-or-invert gates</string>
+	<key>74ls540_541</key>
+	<string>octal buffer driver with 3-state outputs(540 inverting output)</string>
+	<key>74ls563</key>
+	<string>octal D-type latch with 3-state outputs(LE active hight latch)</string>
+	<key>74ls564</key>
+	<string>octal D-type latch with 3-state outputs(CP active rising edge latch)</string>
+	<key>74ls573</key>
+	<string>octal D-type transparent latch with 3-state outputs</string>
+	<key>74ls574</key>
+	<string>octal D-type flip-flop with 3-state outputs</string>
+	<key>74ls589</key>
+	<string>8-bit shift registers with input latches and 3-state outputs</string>
+	<key>74ls590_591</key>
+	<string>8-bit binary counter with output registers(591 open-collector outputs)</string>
+	<key>74ls592_593</key>
+	<string>8-bit binary couners with input registers(593 counter output)</string>
+	<key>74ls604_606_607</key>
+	<string>octal 2-input multiplexed latches with 3-state outputs(604 hight speed,607 open-collector output)</string>
+	<key>ls610_611_612_613</key>
+	<string>memory mappers(610:outputs latched and 3-state output,613:open-collector output</string>
+	<key>74ls640_641</key>
+	<string>octal bus transceivers(640:3-state output and logic inverting,641:open-collector output)</string>
+	<key>74ls642_645</key>
+	<string>octal bus transceivers(642:open-collector output and logic inverting,645:3-state output)</string>
+	<key>74ls670</key>
+	<string>4X4 register file with 3-state outputs</string>
+	<key>74ls73</key>
+	<string>dual J-K flip-flops with clear</string>
+	<key>74ls74</key>
+	<string>dual D-type positive edge-triggered flip-flop</string>
+	<key>74ls76</key>
+	<string>dual J-K flip-flop with set and clear</string>
+	<key>74ls78</key>
+	<string>dual J-K flip-flops with preset,common clock,and common clear</string>
+	<key>74ls793_794</key>
+	<string>8-bit latch/register with readback(794 eage-trigger latch)</string>
+	<key>74ls83</key>
+	<string>4-bit binary full adder with fast carry</string>
+	<key>74ls85</key>
+	<string>4-bit magnitude comparator</string>
+	<key>74ls86</key>
+	<string>quad 2-input exclusive or gate</string>
+	<key>74ls90</key>
+	<string>BCD decade(8421) counter</string>
+	<key>74ls92</key>
+	<string>divide-gy-twelve counter</string>
+	<key>74ls93</key>
+	<string>4-bit ripple counter</string>
+	<key>74ls95</key>
+	<string>4-bit shift register</string>
+	<key>8051 core Register Structure</key>
+	<string>Register Structure</string>
+	<key>AD5253/AD5254</key>
+	<string>AD5253/AD5254.pdf</string>
+	<key>ADC0831/32/34/38</key>
+	<string>ADC0831/32/34/38.pdf</string>
+	<key>AT89C51</key>
+	<string>AT89C51.pdf</string>
+	<key>AT89C52</key>
+	<string>AT89C52.pdf</string>
+	<key>AT89C55</key>
+	<string>AT89C55.pdf</string>
+	<key>AT89S8252</key>
+	<string>AT89S8252.pdf</string>
+	<key>AT89c1051</key>
+	<string>AT89c1051.pdf</string>
+	<key>AT89c2051</key>
+	<string>AT89c2051.pdf</string>
+	<key>C8051F01X series</key>
+	<string>C8051F01X series.pdf</string>
+	<key>C8051F02X series</key>
+	<string>C8051F02X series.pdf</string>
+	<key>C8051F04X series</key>
+	<string>C8051F04X series.pdf</string>
+	<key>C8051F06X series</key>
+	<string>C8051F06X series.pdf</string>
+	<key>C8051F0XX series</key>
+	<string>C8051F0XX series.pdf</string>
+	<key>C8051F12X series</key>
+	<string>C8051F12X series.pdf</string>
+	<key>C8051F2XX series</key>
+	<string>C8051F2XX series.pdf</string>
+	<key>C8051F30X series</key>
+	<string>C8051F30X series.pdf</string>
+	<key>C8051F31X series</key>
+	<string>C8051F31X series.pdf</string>
+	<key>C8051F32X series</key>
+	<string>C8051F32X series.pdf</string>
+	<key>C8051F33X series</key>
+	<string>C8051F33X series.pdf</string>
+	<key>C8051F34X series</key>
+	<string>C8051F34X series.pdf</string>
+	<key>C8051F35X series</key>
+	<string>C8051F35X series.pdf</string>
+	<key>C8051F41X series</key>
+	<string>C8051F41X series.pdf</string>
+	<key>C8051F52X-F53X</key>
+	<string>C8051F52X-F53X.pdf</string>
+	<key>C8051F54X</key>
+	<string>C8051F54X.pdf</string>
+	<key>C8051F55X/56X/57X</key>
+	<string>C8051F55X/56X/57X.pdf</string>
+	<key>C8051F58X-F59X</key>
+	<string>C8051F58X-F59X.pdf</string>
+	<key>C8051F70X/71X</key>
+	<string>C8051F70X/71X.pdf</string>
+	<key>C8051F80X-F83X</key>
+	<string>C8051F80X-F83X.pdf</string>
+	<key>C8051F90X-F91X </key>
+	<string>C8051F90X-F91X .pdf</string>
+	<key>C8051F92X-F93X</key>
+	<string>C8051F92X-F93X.pdf</string>
+	<key>C8051F98X-F99X</key>
+	<string>C8051F98X-F99X.pdf</string>
+	<key>CC2420</key>
+	<string>CC2420.pdf</string>
+	<key>CC2430 (ZigBee SOC)</key>
+	<string>CC2430 (ZigBee SOC).pdf</string>
+	<key>CC2480 (ZigBee SOC)</key>
+	<string>CC2480 (ZigBee SOC).pdf</string>
+	<key>CC2500</key>
+	<string>CC2500.pdf</string>
+	<key>CC2510FX/11FX (ZigBee SOC)</key>
+	<string>CC2510FX/11FX (ZigBee SOC).pdf</string>
+	<key>CC2550</key>
+	<string>CC2550.pdf</string>
+	<key>CC2591</key>
+	<string>CC2591.pdf</string>
+	<key>CH340</key>
+	<string>CH340.pdf</string>
+	<key>DAC0830/31/32</key>
+	<string>DAC0830/31/32.pdf</string>
+	<key>DS18B20</key>
+	<string>DS18B20.pdf</string>
+	<key>Dot matrix display</key>
+	<string>Dot matrix display.pdf</string>
+	<key>IAP10F14X</key>
+	<string>IAP10F14X.pdf</string>
+	<key>LCD12864</key>
+	<string>LCD12864.pdf</string>
+	<key>LCD1602</key>
+	<string>LCD1602.pdf</string>
+	<key>MM74C922N</key>
+	<string>MM74C922N.pdf</string>
+	<key>N78E055</key>
+	<string>N78E055.pdf</string>
+	<key>N78E059</key>
+	<string>N78E059.pdf</string>
+	<key>N78E366</key>
+	<string>N78E366.pdf</string>
+	<key>N78E517</key>
+	<string>N78E517.pdf</string>
+	<key>STC10FXXX series</key>
+	<string>STC10FXXX series.pdf</string>
+	<key>STC11FXXX series</key>
+	<string>STC11FXXX series.pdf</string>
+	<key>STC12C20XXXX series</key>
+	<string>STC12C20XXXX series.pdf</string>
+	<key>STC12C52XXXX series</key>
+	<string>STC12C52XXXX series.pdf</string>
+	<key>STC12C54XXXX series</key>
+	<string>STC12C54XXXX series.pdf</string>
+	<key>STC12C56XXXX series</key>
+	<string>STC12C56XXXX series.pdf</string>
+	<key>STC12C5AXXXX series</key>
+	<string>STC12C5AXXXX series.pdf</string>
+	<key>STC12CXXXXAD series</key>
+	<string>STC12CXXXXAD series.pdf</string>
+	<key>STC12LE54XXXX series</key>
+	<string>STC12LE54XXXX series.pdf</string>
+	<key>STC89CXXXX series</key>
+	<string>STC89CXXXX series.pdf</string>
+	<key>STC89CXXXXAD series</key>
+	<string>STC89CXXXXAD series.pdf</string>
+	<key>STC89LE516AD</key>
+	<string>STC89LE516AD.pdf</string>
+	<key>STC89LE516X2</key>
+	<string>STC89LE516X2.pdf</string>
+	<key>STC89LEXXXX series</key>
+	<string>STC89LEXXXX series.pdf</string>
+	<key>Seven Segment</key>
+	<string>Seven Segment.pdf</string>
+	<key>TB62209F</key>
+	<string>TB62209F.pdf</string>
+	<key>ULN2001/2/3/4</key>
+	<string>ULN2001/2/3/4.pdf</string>
+	<key>W78E052</key>
+	<string>W78E052.pdf</string>
+	<key>W78E054</key>
+	<string>W78E054.pdf</string>
+	<key>W78E058</key>
+	<string>W78E058.pdf</string>
+	<key>W78E516</key>
+	<string>W78E516.pdf</string>
+	<key>W78ERD2</key>
+	<string>W78ERD2.pdf</string>
+	<key>X9313</key>
+	<string>X9313.pdf</string>
+	<key>cd4001_4002_4025</key>
+	<string>CMOS NOR gates</string>
+	<key>cd4006</key>
+	<string>18-stage static shift register</string>
+	<key>cd4007</key>
+	<string>dual complementary pairplus inverter</string>
+	<key>cd4008</key>
+	<string>4-bit full adder</string>
+	<key>cd4009_4010</key>
+	<string>hex buffers(4009 with inverting)</string>
+	<key>cd40100</key>
+	<string>32-stage static left/right shift register</string>
+	<key>cd40101</key>
+	<string>9-bit parity generator/checker</string>
+	<key>cd40102_40103</key>
+	<string>8-stage presettable synchronous down counters(40102 2-decade BCD,40103 8-bit binary)</string>
+	<key>cd40104_40194</key>
+	<string>4-bit bidirectional universal shift register</string>
+	<key>cd40105</key>
+	<string>FIFO register with 3-state outputs</string>
+	<key>cd40106</key>
+	<string>hex schmitt triggers</string>
+	<key>cd40107</key>
+	<string>dual 2-input NAND buffer/driver(open drain N-channel output)</string>
+	<key>cd40108</key>
+	<string>4X4 multiport register with 3-state outputs</string>
+	<key>cd40109</key>
+	<string>quad low-to-high voltage level shifter</string>
+	<key>cd40110</key>
+	<string>decade up-down counter/latch/display driver</string>
+	<key>cd4011_4012_4023</key>
+	<string>NAND gates</string>
+	<key>cd4013</key>
+	<string>dual D-type flip-flop</string>
+	<key>cd4014</key>
+	<string>8-stage static shift registers(sun P or S input/S output)</string>
+	<key>cd40147</key>
+	<string>10 line to 4 line BCD priority encoder</string>
+	<key>cd4015</key>
+	<string>dual 4-stage static shift register with serial input/parallel output</string>
+	<key>cd4016</key>
+	<string>quad bilateral switch</string>
+	<key>cd40160_161_162_163</key>
+	<string>synchronous programmable 4-bit counter</string>
+	<key>cd40174</key>
+	<string>hex D-type flip-flop</string>
+	<key>cd40175</key>
+	<string>quad D-type flip-flop</string>
+	<key>cd4017_4022</key>
+	<string>decade counter/divider(4017)&amp;divider-by-8 counter/divider(4022)</string>
+	<key>cd4018</key>
+	<string>presettable divide-by-N counter</string>
+	<key>cd40181</key>
+	<string>4-bit arithmetic logic unit</string>
+	<key>cd40182</key>
+	<string>Look-Ahead carry generator</string>
+	<key>cd4019</key>
+	<string>quad AND/OR select gate</string>
+	<key>cd40192_40193</key>
+	<string>presettable up/down counters(dual clock with Reset)</string>
+	<key>cd40208</key>
+	<string>4X4 multiport register with 3-state outputs</string>
+	<key>cd4020_4040_4060</key>
+	<string>14/12/12-stage ripple carry binary counters</string>
+	<key>cd4021</key>
+	<string>8-stage static shift register(asyn P input or syn S input/S output)</string>
+	<key>cd4023_4025</key>
+	<string>triple 3-input NAND(4023)/NOR(4025) gate</string>
+	<key>cd4024</key>
+	<string>7-stage ripple carry binary counter</string>
+	<key>cd4026_4033</key>
+	<string>decade counter/dividers with decade 7-segment display outputs</string>
+	<key>cd4027</key>
+	<string>dual J-K Master-Slave Flip-Flop</string>
+	<key>cd4028</key>
+	<string>BCD-to-decimal decoder</string>
+	<key>cd4029</key>
+	<string>presettable binary/decade up/down counter</string>
+	<key>cd4030</key>
+	<string>quad exclusive-or gate</string>
+	<key>cd4031</key>
+	<string>64-stage static shift register</string>
+	<key>cd4032_4038</key>
+	<string>triple serial adders(4032 positive,4038 negative)</string>
+	<key>cd4033</key>
+	<string>decade counter/divider</string>
+	<key>cd4034</key>
+	<string>8-stage static bidivectional parallel/serial input/output bus register</string>
+	<key>cd4035</key>
+	<string>4-stage parallel in/parallel out shift register</string>
+	<key>cd4041</key>
+	<string>quad true/complement buffer</string>
+	<key>cd4042</key>
+	<string>quad clocked D latch</string>
+	<key>cd4043_4044</key>
+	<string>quad 3-state NOR(4043)/NAND(4044) R-S latches</string>
+	<key>cd4045</key>
+	<string>21-stage counter</string>
+	<key>cd4046</key>
+	<string>CMOS micropower phase-locked loop</string>
+	<key>cd4047</key>
+	<string>Low power monostable/astable multivibrator</string>
+	<key>cd4048</key>
+	<string>multifunction expandable 8-input gate</string>
+	<key>cd4049_4050</key>
+	<string>hex buffer/converters(4049 inverting)</string>
+	<key>cd4051_4052_4053</key>
+	<string>analog multiplexers/demultiplexers with logic level conversion</string>
+	<key>cd4054_4055_4056</key>
+	<string>liquic-crystal display drivers</string>
+	<key>cd4059</key>
+	<string>programmable divide-by-N counter</string>
+	<key>cd4060</key>
+	<string>14-stage ripple-carry binary counter/divider and oscillator</string>
+	<key>cd4063</key>
+	<string>4-bit magnitude comparator</string>
+	<key>cd4066</key>
+	<string>quad bilateral switch</string>
+	<key>cd4067_4097</key>
+	<string>analog multiplexers/demultiplexers(4067 16 channel,4097 8 channel)</string>
+	<key>cd4068</key>
+	<string>8-input NAND/AND gate</string>
+	<key>cd4069</key>
+	<string>inverter circuits</string>
+	<key>cd4070_4077</key>
+	<string>quad 2-input Exclusive-OR(4070)/NOR(4077) gate</string>
+	<key>cd4071_4072_4075</key>
+	<string>OR gate(4071 quad 2-input,4072 dual 4-input,4075 triple 3-input)</string>
+	<key>cd4073_4081_4082</key>
+	<string>AND gate(4073 triple 3-input,4081 quad 2-input,4082 dual 4-input)</string>
+	<key>cd4076</key>
+	<string>4-bit D -type registers with 3-state outputs</string>
+	<key>cd4078</key>
+	<string>8-input NOR/OR gate</string>
+	<key>cd4085</key>
+	<string>dual 2 wide 2 input AND-OR-INVERT gate</string>
+	<key>cd4086</key>
+	<string>expandable 4-wide 2-input AND-OR_INVERT gate</string>
+	<key>cd4089</key>
+	<string>binary rate multiplier</string>
+	<key>cd4093</key>
+	<string>quad 2-input NAND schmitt triggers</string>
+	<key>cd4094</key>
+	<string>8-bit shift register/latch with 3-state outputs</string>
+	<key>cd4095_4096</key>
+	<string>Gated J-K master-slave flip-flop</string>
+	<key>cd4098</key>
+	<string>dual monostable multivibrator</string>
+	<key>cd4099</key>
+	<string>8-bit addressable latch</string>
+	<key>ls365_366_367_368</key>
+	<string>hex bus drivers with 3-state outputs</string>
+</dict>
+</plist>

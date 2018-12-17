@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>8051 core Register Structure</string>
+	<string>AT89c1051</string>
+	<string>AT89c2051</string>
+	<string>AT89C51</string>
+	<string>AT89C52</string>
+	<string>AT89C55</string>
+	<string>AT89S8252</string>
+	<string>STC89CXXXX series</string>
+	<string>STC89LEXXXX series</string>
+	<string>STC89LE516AD</string>
+	<string>STC89LE516X2</string>
+	<string>STC12C20XXXX series</string>
+	<string>STC89CXXXXAD series</string>
+	<string>STC12CXXXXAD series</string>
+	<string>STC10FXXX series</string>
+	<string>STC11FXXX series</string>
+	<string>IAP10F14X</string>
+	<string>STC12C5AXXXX series</string>
+	<string>STC12C52XXXX series</string>
+	<string>STC12C56XXXX series</string>
+	<string>STC12C54XXXX series</string>
+	<string>STC12LE54XXXX series</string>
+	<string>W78E052</string>
+	<string>W78E054</string>
+	<string>W78E058</string>
+	<string>W78E516</string>
+	<string>N78E055</string>
+	<string>N78E059</string>
+	<string>N78E517</string>
+	<string>N78E366</string>
+	<string>W78ERD2</string>
+	<string>C8051F0XX series</string>
+	<string>C8051F01X series</string>
+	<string>C8051F02X series</string>
+	<string>C8051F04X series</string>
+	<string>C8051F06X series</string>
+	<string>C8051F12X series</string>
+	<string>C8051F2XX series</string>
+	<string>C8051F30X series</string>
+	<string>C8051F31X series</string>
+	<string>C8051F32X series</string>
+	<string>C8051F33X series</string>
+	<string>C8051F34X series</string>
+	<string>C8051F35X series</string>
+	<string>C8051F41X series</string>
+	<string>C8051F52X-F53X</string>
+	<string>C8051F98X-F99X</string>
+	<string>C8051F92X-F93X</string>
+	<string>C8051F90X-F91X </string>
+	<string>C8051F80X-F83X</string>
+	<string>C8051F70X/71X</string>
+	<string>C8051F58X-F59X</string>
+	<string>C8051F55X/56X/57X</string>
+	<string>C8051F54X</string>
+	<string>CC2430 (ZigBee SOC)</string>
+	<string>CC2480 (ZigBee SOC)</string>
+	<string>CC2510FX/11FX (ZigBee SOC)</string>
+</array>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad11_0rounded" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2064" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FourthViewController">
+            <connections>
+                <outlet property="text" destination="5" id="6"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="20" y="94" width="794" height="1080"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <mutableString key="text">   First of all, thank you for using this application.TTL and CMOS circuits is the basic digital circuits, and also constitute the basis of the digital system.
+   TTL circuits, limit operating voltage is 7V, the normal operating voltage is 4.5 to 5.5V. The 54 series generally military general in -55-125 ° C working temperature. 74 series general industrial products or products for civilian use, the operating voltage is 4.75 ~~ 5.25V industrial products operating temperature range is -45 to 85 ° C, a civilian products is generally 0 to 70 ° C temperature. TTL high level requirements greater than 2.4V, low requirements of less than 0.7V. Level open collector output the highest voltage up to 30V. And TTL circuit output drive capacity greater than CMOS circuits. Operating temperature is mainly associated with the product package types.
+    CMOS circuits, 40xx and 45xx series, general operating voltage ~~ 18V normal operating voltage is 5 ~~ 15V. The working temperature and package types, divided into military products, industrial products, and products for civilian use. The CMOS circuit input current is very small and generally uA extremely. Generally a CMOS circuit can drive dozens of CMOS gate.
+     Once again, thank you download this application. Your support is my greatest encouragement. Next, I will have more similar applications shelves. If you like my application, Please give me an evaluation, I will then write more applications.
+  My blog: http://tboy.xyz
+          version:v2.0.4</mutableString>
+                    <color key="textColor" red="0.1318740568" green="0.46008831519999999" blue="0.13633935350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5" firstAttribute="top" secondItem="1" secondAttribute="top" constant="94" id="Gxh-og-SW6"/>
+                <constraint firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="20" id="avU-YQ-U1T"/>
+                <constraint firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="20" id="hVZ-5m-C9p"/>
+                <constraint firstItem="5" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="t6L-Ym-6X4"/>
+            </constraints>
+            <point key="canvasLocation" x="599" y="523"/>
+        </view>
+    </objects>
+</document>
